@@ -1,0 +1,5 @@
+org/typing/forgerock/auth/TypingAuth.class
+org/typing/forgerock/auth/PhraseTextProducer.class
+org/typing/forgerock/auth/TypingDNAapi.class
+org/typing/forgerock/auth/TypingAuthPrincipal.class
+org/typing/forgerock/auth/CaptchaGenerator.class

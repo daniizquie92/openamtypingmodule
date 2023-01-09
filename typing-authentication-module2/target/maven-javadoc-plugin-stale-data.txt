@@ -1,0 +1,258 @@
+@options
+@packages
+-classpath
+'/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-core/14.6.7-SNAPSHOT/openam-core-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-license-servlet/14.6.7-SNAPSHOT/openam-license-servlet-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-license-core/14.6.7-SNAPSHOT/openam-license-core-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-audit-context/14.6.7-SNAPSHOT/openam-audit-context-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/core/2.0.17/core-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/security/2.0.17/security-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-audit-core/14.6.7-SNAPSHOT/openam-audit-core-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-coretoken/14.6.7-SNAPSHOT/openam-coretoken-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-idsvcs-schema/14.6.7-SNAPSHOT/openam-idsvcs-schema-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/org/glassfish/metro/wsit-impl/2.4.4/wsit-impl-2.4.4.jar:/home/daniel/.m2/repository/org/glassfish/metro/metro-config-api/2.4.4/metro-config-api-2.4.4.jar:/home/daniel/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jaxws-rt-2.3.3.jar:/home/daniel/.m2/repository/com/sun/xml/ws/policy/2.7.10/policy-2.7.10.jar:/home/daniel/.m2/repository/org/glassfish/ha/ha-api/3.1.12/ha-api-3.1.12.jar:/home/daniel/.m2/repository/org/glassfish/external/management-api/3.2.2/management-api-3.2.2.jar:/home/daniel/.m2/repository/org/glassfish/gmbal/gmbal/4.0.1/gmbal-4.0.1.jar:/home/daniel/.m2/repository/org/glassfish/pfl/pfl-tf/4.1.0/pfl-tf-4.1.0.jar:/home/daniel/.m2/repository/org/glassfish/pfl/pfl-basic/4.1.0/pfl-basic-4.1.0.jar:/home/daniel/.m2/repository/org/jvnet/staxex/stax-ex/1.8.3/stax-ex-1.8.3.jar:/home/daniel/.m2/repository/com/sun/xml/stream/buffer/streambuffer/1.5.9/streambuffer-1.5.9.jar:/home/daniel/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/daniel/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.1.0/woodstox-core-5.1.0.jar:/home/daniel/.m2/repository/org/codehaus/woodstox/stax2-api/4.1/stax2-api-4.1.jar:/home/daniel/.m2/repository/jakarta/xml/ws/jakarta.xml.ws-api/2.3.3/jakarta.xml.ws-api-2.3.3.jar:/home/daniel/.m2/repository/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2/jakarta.xml.soap-api-1.4.2.jar:/home/daniel/.m2/repository/jakarta/jws/jakarta.jws-api/2.1.0/jakarta.jws-api-2.1.0.jar:/home/daniel/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/daniel/.m2/repository/org/glassfish/metro/metro-runtime-api/2.4.4/metro-runtime-api-2.4.4.jar:/home/daniel/.m2/repository/org/glassfish/metro/soaptcp-api/2.4.4/soaptcp-api-2.4.4.jar:/home/daniel/.m2/repository/org/glassfish/metro/wssx-api/2.4.4/wssx-api-2.4.4.jar:/home/daniel/.m2/repository/org/apache/santuario/xmlsec/2.1.7/xmlsec-2.1.7.jar:/home/daniel/.m2/repository/org/glassfish/metro/metro-cm-api/2.4.4/metro-cm-api-2.4.4.jar:/home/daniel/.m2/repository/org/glassfish/metro/wsmc-api/2.4.4/wsmc-api-2.4.4.jar:/home/daniel/.m2/repository/org/glassfish/metro/wsrm-api/2.4.4/wsrm-api-2.4.4.jar:/home/daniel/.m2/repository/jakarta/xml/rpc/jakarta.xml.rpc-api/1.1.4/jakarta.xml.rpc-api-1.1.4.jar:/home/daniel/.m2/repository/jakarta/security/auth/message/jakarta.security.auth.message-api/1.1.3/jakarta.security.auth.message-api-1.1.3.jar:/home/daniel/.m2/repository/com/sun/mail/jakarta.mail/1.6.5/jakarta.mail-1.6.5.jar:/home/daniel/.m2/repository/org/glassfish/metro/wstx-api/2.4.4/wstx-api-2.4.4.jar:/home/daniel/.m2/repository/org/glassfish/metro/wsit-api/2.4.4/wsit-api-2.4.4.jar:/home/daniel/.m2/repository/org/glassfish/metro/metro-commons/2.4.4/metro-commons-2.4.4.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-mib-schema/14.6.7-SNAPSHOT/openam-mib-schema-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-xacml3-schema/14.6.7-SNAPSHOT/openam-xacml3-schema-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-ldap-utils/14.6.7-SNAPSHOT/openam-ldap-utils-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-annotations/14.6.7-SNAPSHOT/openam-annotations-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-license-manager-cli/14.6.7-SNAPSHOT/openam-license-manager-cli-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-notifications/14.6.7-SNAPSHOT/openam-notifications-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.javax-inject/1_2/org.apache.servicemix.bundles.javax-inject-1_2.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/json-web-token/2.0.17/json-web-token-2.0.17.jar:/home/daniel/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.0-rc1/jackson-annotations-2.14.0-rc1.jar:/home/daniel/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.0-rc1/jackson-core-2.14.0-rc1.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/json-resource-http/2.0.17/json-resource-http-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/json-resource/2.0.17/json-resource-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/api-descriptor/2.0.17/api-descriptor-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/util/2.0.17/util-2.0.17.jar:/home/daniel/.m2/repository/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar:/home/daniel/.m2/repository/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar:/home/daniel/.m2/repository/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar:/home/daniel/.m2/repository/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar:/home/daniel/.m2/repository/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar:/home/daniel/.m2/repository/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-tokens/14.6.7-SNAPSHOT/openam-tokens-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/bloomfilter/core/2.0.17/core-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/bloomfilter/monitoring/2.0.17/monitoring-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-server/4.5.4/opendj-server-4.5.4.jar:/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-config/4.5.4/opendj-config-4.5.4.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/i18n-framework/core/2.0.17/core-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-cli/4.5.4/opendj-cli-4.5.4.jar:/home/daniel/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/home/daniel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/daniel/.m2/repository/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar:/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-core/4.5.4/opendj-core-4.5.4.jar:/home/daniel/.m2/repository/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar:/home/daniel/.m2/repository/io/reactivex/rxjava2/rxjava/2.0.0/rxjava-2.0.0.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/i18n-framework/slf4j/2.0.17/slf4j-2.0.17.jar:/home/daniel/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-grizzly/4.5.4/opendj-grizzly-4.5.4.jar:/home/daniel/.m2/repository/org/glassfish/grizzly/grizzly-framework/2.4.4/grizzly-framework-2.4.4.jar:/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-server-legacy/4.5.4/opendj-server-legacy-4.5.4.jar:/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-rest2ldap/4.5.4/opendj-rest2ldap-4.5.4.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/http-framework/oauth2/2.0.17/oauth2-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/http-framework/client-apache-async/2.0.17/client-apache-async-2.0.17.jar:/home/daniel/.m2/repository/org/apache/httpcomponents/httpasyncclient-osgi/4.1.4/httpasyncclient-osgi-4.1.4.jar:/home/daniel/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4.jar:/home/daniel/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.14/httpcore-nio-4.4.14.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/http-framework/client-apache-common/2.0.17/client-apache-common-2.0.17.jar:/home/daniel/.m2/repository/org/apache/httpcomponents/httpclient-osgi/4.5.13/httpclient-osgi-4.5.13.jar:/home/daniel/.m2/repository/org/apache/httpcomponents/httpcore-osgi/4.4.14/httpcore-osgi-4.4.14.jar:/home/daniel/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar:/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-ldap-toolkit/4.5.4/opendj-ldap-toolkit-4.5.4.jar:/home/daniel/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar:/home/daniel/.m2/repository/org/mpierce/metrics/reservoir/hdrhistogram-metrics-reservoir/1.1.0/hdrhistogram-metrics-reservoir-1.1.0.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/http-framework/grizzly/2.0.17/grizzly-2.0.17.jar:/home/daniel/.m2/repository/org/glassfish/grizzly/grizzly-http-server/2.4.3/grizzly-http-server-2.4.3.jar:/home/daniel/.m2/repository/org/glassfish/grizzly/grizzly-http/2.4.3/grizzly-http-2.4.3.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-csv/2.0.17/handler-csv-2.0.17.jar:/home/daniel/.m2/repository/net/sf/supercsv/super-csv/2.4.0/super-csv-2.4.0.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-json/2.0.17/handler-json-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-elasticsearch/2.0.17/handler-elasticsearch-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-splunk/2.0.17/handler-splunk-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-jms/2.0.17/handler-jms-2.0.17.jar:/home/daniel/.m2/repository/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/json/2.0.17/json-2.0.17.jar:/home/daniel/.m2/repository/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.14.0-rc1/jackson-module-jsonSchema-2.14.0-rc1.jar:/home/daniel/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-syslog/2.0.17/handler-syslog-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-jdbc/2.0.17/handler-jdbc-2.0.17.jar:/home/daniel/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/home/daniel/.m2/repository/com/sleepycat/je/18.3.12/je-18.3.12.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/persistit/core/2.0.17/core-2.0.17.jar:/home/daniel/.m2/repository/de/odysseus/juel/juel-impl/2.2.7/juel-impl-2.2.7.jar:/home/daniel/.m2/repository/de/odysseus/juel/juel-api/2.2.7/juel-api-2.2.7.jar:/home/daniel/.m2/repository/org/openidentityplatform/external/com/iplanet/jato/jato/2005-05-04/jato-2005-05-04.jar:/home/daniel/.m2/repository/org/openidentityplatform/external/com/sun/web/ui/cc/2008-08-08/cc-2008-08-08.jar:/home/daniel/.m2/repository/org/apache/click/click-extras/2.3.0/click-extras-2.3.0.jar:/home/daniel/.m2/repository/org/apache/click/click-nodeps/2.3.0/click-nodeps-2.3.0.jar:/home/daniel/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/daniel/.m2/repository/ognl/ognl/2.6.9/ognl-2.6.9.jar:/home/daniel/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/daniel/.m2/repository/commons-codec/commons-codec/1.14/commons-codec-1.14.jar:/home/daniel/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/daniel/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:/home/daniel/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/home/daniel/.m2/repository/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar:/home/daniel/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/home/daniel/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/daniel/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/daniel/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/home/daniel/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/home/daniel/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/daniel/.m2/repository/org/owasp/esapi/esapi/2.5.0.0/esapi-2.5.0.0.jar:/home/daniel/.m2/repository/xom/xom/1.3.7/xom-1.3.7.jar:/home/daniel/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/home/daniel/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/daniel/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/daniel/.m2/repository/org/owasp/antisamy/antisamy/1.7.1/antisamy-1.7.1.jar:/home/daniel/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.64.0/neko-htmlunit-2.64.0.jar:/home/daniel/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/home/daniel/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/home/daniel/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.4/httpcore5-5.1.4.jar:/home/daniel/.m2/repository/org/apache/xmlgraphics/batik-css/1.14/batik-css-1.14.jar:/home/daniel/.m2/repository/org/apache/xmlgraphics/batik-shared-resources/1.14/batik-shared-resources-1.14.jar:/home/daniel/.m2/repository/org/apache/xmlgraphics/batik-util/1.14/batik-util-1.14.jar:/home/daniel/.m2/repository/org/apache/xmlgraphics/batik-constants/1.14/batik-constants-1.14.jar:/home/daniel/.m2/repository/org/apache/xmlgraphics/batik-i18n/1.14/batik-i18n-1.14.jar:/home/daniel/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.6/xmlgraphics-commons-2.6.jar:/home/daniel/.m2/repository/xerces/xercesImpl/2.12.2/xercesImpl-2.12.2.jar:/home/daniel/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar:/home/daniel/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/daniel/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.36/log4j-over-slf4j-1.7.36.jar:/home/daniel/.m2/repository/javax/xml/jaxrpc-api/1.1/jaxrpc-api-1.1.jar:/home/daniel/.m2/repository/com/sun/xml/rpc/jaxrpc-impl/1.1.3_01/jaxrpc-impl-1.1.3_01.jar:/home/daniel/.m2/repository/com/sun/xml/rpc/jaxrpc-spi/1.1.3_01/jaxrpc-spi-1.1.3_01.jar:/home/daniel/.m2/repository/com/sun/xml/messaging/saaj/saaj-impl/1.3.19/saaj-impl-1.3.19.jar:/home/daniel/.m2/repository/org/jvnet/mimepull/mimepull/1.7/mimepull-1.7.jar:/home/daniel/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.17/FastInfoset-1.2.17.jar:/home/daniel/.m2/repository/org/glassfish/jersey/bundles/jaxrs-ri/2.37/jaxrs-ri-2.37.jar:/home/daniel/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/2.37/jersey-hk2-2.37.jar:/home/daniel/.m2/repository/org/glassfish/hk2/hk2-locator/2.6.1/hk2-locator-2.6.1.jar:/home/daniel/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:/home/daniel/.m2/repository/org/glassfish/hk2/hk2-api/2.6.1/hk2-api-2.6.1.jar:/home/daniel/.m2/repository/org/glassfish/hk2/hk2-utils/2.6.1/hk2-utils-2.6.1.jar:/home/daniel/.m2/repository/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.jar:/home/daniel/.m2/repository/org/glassfish/jersey/core/jersey-common/2.37/jersey-common-2.37.jar:/home/daniel/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar:/home/daniel/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:/home/daniel/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar:/home/daniel/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.37/jersey-media-jaxb-2.37.jar:/home/daniel/.m2/repository/org/glassfish/jersey/media/jersey-media-json-binding/2.37/jersey-media-json-binding-2.37.jar:/home/daniel/.m2/repository/org/glassfish/jakarta.json/1.1.6/jakarta.json-1.1.6.jar:/home/daniel/.m2/repository/org/eclipse/yasson/1.0.11/yasson-1.0.11.jar:/home/daniel/.m2/repository/org/glassfish/jakarta.json/1.1.6/jakarta.json-1.1.6-module.jar:/home/daniel/.m2/repository/jakarta/json/bind/jakarta.json.bind-api/1.0.2/jakarta.json.bind-api-1.0.2.jar:/home/daniel/.m2/repository/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar:/home/daniel/.m2/repository/org/glassfish/jersey/core/jersey-client/2.37/jersey-client-2.37.jar:/home/daniel/.m2/repository/org/glassfish/jersey/core/jersey-server/2.37/jersey-server-2.37.jar:/home/daniel/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar:/home/daniel/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.37/jersey-container-servlet-core-2.37.jar:/home/daniel/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.37/jersey-container-servlet-2.37.jar:/home/daniel/.m2/repository/org/glassfish/jersey/media/jersey-media-sse/2.37/jersey-media-sse-2.37.jar:/home/daniel/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/daniel/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/daniel/.m2/repository/org/json/json/20090211/json-20090211.jar:/home/daniel/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar:/home/daniel/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/home/daniel/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/daniel/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar:/home/daniel/.m2/repository/org/opendaylight/cardinal/jdmk/0.3.3/jdmk-0.3.3.jar:/home/daniel/.m2/repository/com/google/inject/guice/3.0/guice-3.0-no_aop.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/guice/core/2.0.17/core-2.0.17.jar:/home/daniel/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.4/HdrHistogram-2.1.4.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/guice/test/2.0.17/test-2.0.17.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-i18n/14.6.7-SNAPSHOT/openam-i18n-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/home/daniel/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/daniel/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar:/home/daniel/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar:/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-shared/14.6.7-SNAPSHOT/openam-shared-14.6.7-SNAPSHOT.jar:/home/daniel/.m2/repository/com/google/inject/extensions/guice-multibindings/3.0/guice-multibindings-3.0.jar:/home/daniel/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/daniel/.m2/repository/org/openidentityplatform/commons/http-framework/core/2.0.17/core-2.0.17.jar:/home/daniel/.m2/repository/io/swagger/swagger-models/1.6.2/swagger-models-1.6.2.jar:/home/daniel/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.0-rc1/jackson-databind-2.14.0-rc1.jar:/home/daniel/.m2/repository/com/googlecode/java-ipv6/java-ipv6/0.17/java-ipv6-0.17.jar:/home/daniel/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/home/daniel/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/lib/openam-core-14.6.6.jar:/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/lib/openam-shared-14.6.6.jar:/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/lib/json-simple-1.1.jar:/home/daniel/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/daniel/.m2/repository/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/lib/simplecaptcha-1.2.jar:/home/daniel/.m2/repository/org/assertj/assertj-core/2.4.1/assertj-core-2.4.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/src/main/java:/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2010&#x2013;2022 <a href="https://github.com/OpenIdentityPlatform">Open Identity Platform Community</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/apidocs'
+-docencoding
+'UTF-8'
+-Xdoclint:none
+-doctitle
+'OpenAM Custom Authentication Module 14.6.7-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'OpenAM Custom Authentication Module 14.6.7-SNAPSHOT API'
+org.typing.forgerock.auth
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-core/14.6.7-SNAPSHOT/openam-core-14.6.7-SNAPSHOT.jar = 1671527471000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-license-servlet/14.6.7-SNAPSHOT/openam-license-servlet-14.6.7-SNAPSHOT.jar = 1671527465000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-license-core/14.6.7-SNAPSHOT/openam-license-core-14.6.7-SNAPSHOT.jar = 1671527466000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-audit-context/14.6.7-SNAPSHOT/openam-audit-context-14.6.7-SNAPSHOT.jar = 1671527466000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/core/2.0.17/core-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/security/2.0.17/security-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-audit-core/14.6.7-SNAPSHOT/openam-audit-core-14.6.7-SNAPSHOT.jar = 1671527466000
+/home/daniel/.m2/repository/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar = 1668759798000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-coretoken/14.6.7-SNAPSHOT/openam-coretoken-14.6.7-SNAPSHOT.jar = 1671527466000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-idsvcs-schema/14.6.7-SNAPSHOT/openam-idsvcs-schema-14.6.7-SNAPSHOT.jar = 1671527466000
+/home/daniel/.m2/repository/org/glassfish/metro/wsit-impl/2.4.4/wsit-impl-2.4.4.jar = 1668759842000
+/home/daniel/.m2/repository/org/glassfish/metro/metro-config-api/2.4.4/metro-config-api-2.4.4.jar = 1668759834000
+/home/daniel/.m2/repository/com/sun/xml/ws/jaxws-rt/2.3.3/jaxws-rt-2.3.3.jar = 1668759836000
+/home/daniel/.m2/repository/com/sun/xml/ws/policy/2.7.10/policy-2.7.10.jar = 1668759834000
+/home/daniel/.m2/repository/org/glassfish/ha/ha-api/3.1.12/ha-api-3.1.12.jar = 1668759833000
+/home/daniel/.m2/repository/org/glassfish/external/management-api/3.2.2/management-api-3.2.2.jar = 1668759834000
+/home/daniel/.m2/repository/org/glassfish/gmbal/gmbal/4.0.1/gmbal-4.0.1.jar = 1668759834000
+/home/daniel/.m2/repository/org/glassfish/pfl/pfl-tf/4.1.0/pfl-tf-4.1.0.jar = 1668759834000
+/home/daniel/.m2/repository/org/glassfish/pfl/pfl-basic/4.1.0/pfl-basic-4.1.0.jar = 1668759834000
+/home/daniel/.m2/repository/org/jvnet/staxex/stax-ex/1.8.3/stax-ex-1.8.3.jar = 1668759835000
+/home/daniel/.m2/repository/com/sun/xml/stream/buffer/streambuffer/1.5.9/streambuffer-1.5.9.jar = 1668759835000
+/home/daniel/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar = 1668759835000
+/home/daniel/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.1.0/woodstox-core-5.1.0.jar = 1669280969000
+/home/daniel/.m2/repository/org/codehaus/woodstox/stax2-api/4.1/stax2-api-4.1.jar = 1668759836000
+/home/daniel/.m2/repository/jakarta/xml/ws/jakarta.xml.ws-api/2.3.3/jakarta.xml.ws-api-2.3.3.jar = 1668759836000
+/home/daniel/.m2/repository/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2/jakarta.xml.soap-api-1.4.2.jar = 1668759836000
+/home/daniel/.m2/repository/jakarta/jws/jakarta.jws-api/2.1.0/jakarta.jws-api-2.1.0.jar = 1668759836000
+/home/daniel/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar = 1668759836000
+/home/daniel/.m2/repository/org/glassfish/metro/metro-runtime-api/2.4.4/metro-runtime-api-2.4.4.jar = 1668759837000
+/home/daniel/.m2/repository/org/glassfish/metro/soaptcp-api/2.4.4/soaptcp-api-2.4.4.jar = 1668759837000
+/home/daniel/.m2/repository/org/glassfish/metro/wssx-api/2.4.4/wssx-api-2.4.4.jar = 1668759837000
+/home/daniel/.m2/repository/org/apache/santuario/xmlsec/2.1.7/xmlsec-2.1.7.jar = 1668759837000
+/home/daniel/.m2/repository/org/glassfish/metro/metro-cm-api/2.4.4/metro-cm-api-2.4.4.jar = 1668759838000
+/home/daniel/.m2/repository/org/glassfish/metro/wsmc-api/2.4.4/wsmc-api-2.4.4.jar = 1668759838000
+/home/daniel/.m2/repository/org/glassfish/metro/wsrm-api/2.4.4/wsrm-api-2.4.4.jar = 1668759838000
+/home/daniel/.m2/repository/jakarta/xml/rpc/jakarta.xml.rpc-api/1.1.4/jakarta.xml.rpc-api-1.1.4.jar = 1668759838000
+/home/daniel/.m2/repository/jakarta/security/auth/message/jakarta.security.auth.message-api/1.1.3/jakarta.security.auth.message-api-1.1.3.jar = 1668759838000
+/home/daniel/.m2/repository/com/sun/mail/jakarta.mail/1.6.5/jakarta.mail-1.6.5.jar = 1668759839000
+/home/daniel/.m2/repository/org/glassfish/metro/wstx-api/2.4.4/wstx-api-2.4.4.jar = 1668759839000
+/home/daniel/.m2/repository/org/glassfish/metro/wsit-api/2.4.4/wsit-api-2.4.4.jar = 1668759839000
+/home/daniel/.m2/repository/org/glassfish/metro/metro-commons/2.4.4/metro-commons-2.4.4.jar = 1668759839000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-mib-schema/14.6.7-SNAPSHOT/openam-mib-schema-14.6.7-SNAPSHOT.jar = 1671527467000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-xacml3-schema/14.6.7-SNAPSHOT/openam-xacml3-schema-14.6.7-SNAPSHOT.jar = 1671527466000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-ldap-utils/14.6.7-SNAPSHOT/openam-ldap-utils-14.6.7-SNAPSHOT.jar = 1671527466000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-annotations/14.6.7-SNAPSHOT/openam-annotations-14.6.7-SNAPSHOT.jar = 1671527467000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-license-manager-cli/14.6.7-SNAPSHOT/openam-license-manager-cli-14.6.7-SNAPSHOT.jar = 1671527467000
+/home/daniel/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar = 1668759690000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-notifications/14.6.7-SNAPSHOT/openam-notifications-14.6.7-SNAPSHOT.jar = 1671527468000
+/home/daniel/.m2/repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.javax-inject/1_2/org.apache.servicemix.bundles.javax-inject-1_2.jar = 1668759690000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/json-web-token/2.0.17/json-web-token-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.0-rc1/jackson-annotations-2.14.0-rc1.jar = 1668759690000
+/home/daniel/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.0-rc1/jackson-core-2.14.0-rc1.jar = 1668759690000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/json-resource-http/2.0.17/json-resource-http-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/json-resource/2.0.17/json-resource-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/api-descriptor/2.0.17/api-descriptor-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/util/2.0.17/util-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar = 1668759696000
+/home/daniel/.m2/repository/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar = 1668759689000
+/home/daniel/.m2/repository/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar = 1668759689000
+/home/daniel/.m2/repository/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar = 1668759689000
+/home/daniel/.m2/repository/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar = 1668759690000
+/home/daniel/.m2/repository/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar = 1668759690000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-tokens/14.6.7-SNAPSHOT/openam-tokens-14.6.7-SNAPSHOT.jar = 1671527468000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/bloomfilter/core/2.0.17/core-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/bloomfilter/monitoring/2.0.17/monitoring-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-server/4.5.4/opendj-server-4.5.4.jar = 1670927065000
+/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-config/4.5.4/opendj-config-4.5.4.jar = 1670927069000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/i18n-framework/core/2.0.17/core-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-cli/4.5.4/opendj-cli-4.5.4.jar = 1670927068000
+/home/daniel/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar = 1668760921000
+/home/daniel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar = 1668760919000
+/home/daniel/.m2/repository/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar = 1668760919000
+/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-core/4.5.4/opendj-core-4.5.4.jar = 1670927070000
+/home/daniel/.m2/repository/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar = 1668759732000
+/home/daniel/.m2/repository/io/reactivex/rxjava2/rxjava/2.0.0/rxjava-2.0.0.jar = 1668759735000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/i18n-framework/slf4j/2.0.17/slf4j-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar = 1668759733000
+/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-grizzly/4.5.4/opendj-grizzly-4.5.4.jar = 1670927069000
+/home/daniel/.m2/repository/org/glassfish/grizzly/grizzly-framework/2.4.4/grizzly-framework-2.4.4.jar = 1668759734000
+/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-server-legacy/4.5.4/opendj-server-legacy-4.5.4.jar = 1670927072000
+/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-rest2ldap/4.5.4/opendj-rest2ldap-4.5.4.jar = 1670927065000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/http-framework/oauth2/2.0.17/oauth2-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/http-framework/client-apache-async/2.0.17/client-apache-async-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/apache/httpcomponents/httpasyncclient-osgi/4.1.4/httpasyncclient-osgi-4.1.4.jar = 1668760919000
+/home/daniel/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4.jar = 1668760919000
+/home/daniel/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.14/httpcore-nio-4.4.14.jar = 1668760919000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/http-framework/client-apache-common/2.0.17/client-apache-common-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/apache/httpcomponents/httpclient-osgi/4.5.13/httpclient-osgi-4.5.13.jar = 1668760921000
+/home/daniel/.m2/repository/org/apache/httpcomponents/httpcore-osgi/4.4.14/httpcore-osgi-4.4.14.jar = 1668760920000
+/home/daniel/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar = 1668760919000
+/home/daniel/.m2/repository/org/openidentityplatform/opendj/opendj-ldap-toolkit/4.5.4/opendj-ldap-toolkit-4.5.4.jar = 1670927066000
+/home/daniel/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar = 1668760920000
+/home/daniel/.m2/repository/org/mpierce/metrics/reservoir/hdrhistogram-metrics-reservoir/1.1.0/hdrhistogram-metrics-reservoir-1.1.0.jar = 1668760919000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/http-framework/grizzly/2.0.17/grizzly-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/glassfish/grizzly/grizzly-http-server/2.4.3/grizzly-http-server-2.4.3.jar = 1668760921000
+/home/daniel/.m2/repository/org/glassfish/grizzly/grizzly-http/2.4.3/grizzly-http-2.4.3.jar = 1668760921000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-csv/2.0.17/handler-csv-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/net/sf/supercsv/super-csv/2.4.0/super-csv-2.4.0.jar = 1668760921000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-json/2.0.17/handler-json-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-elasticsearch/2.0.17/handler-elasticsearch-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-splunk/2.0.17/handler-splunk-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-jms/2.0.17/handler-jms-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar = 1668760921000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/json/2.0.17/json-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.14.0-rc1/jackson-module-jsonSchema-2.14.0-rc1.jar = 1668759694000
+/home/daniel/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar = 1668759694000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-syslog/2.0.17/handler-syslog-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/audit/handler-jdbc/2.0.17/handler-jdbc-2.0.17.jar = 1669802038000
+/home/daniel/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar = 1668760921000
+/home/daniel/.m2/repository/com/sleepycat/je/18.3.12/je-18.3.12.jar = 1668760925000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/persistit/core/2.0.17/core-2.0.17.jar = 1669802039000
+/home/daniel/.m2/repository/de/odysseus/juel/juel-impl/2.2.7/juel-impl-2.2.7.jar = 1668760921000
+/home/daniel/.m2/repository/de/odysseus/juel/juel-api/2.2.7/juel-api-2.2.7.jar = 1668760921000
+/home/daniel/.m2/repository/org/openidentityplatform/external/com/iplanet/jato/jato/2005-05-04/jato-2005-05-04.jar = 1668686649000
+/home/daniel/.m2/repository/org/openidentityplatform/external/com/sun/web/ui/cc/2008-08-08/cc-2008-08-08.jar = 1668686649000
+/home/daniel/.m2/repository/org/apache/click/click-extras/2.3.0/click-extras-2.3.0.jar = 1668760922000
+/home/daniel/.m2/repository/org/apache/click/click-nodeps/2.3.0/click-nodeps-2.3.0.jar = 1668760922000
+/home/daniel/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar = 1668760921000
+/home/daniel/.m2/repository/ognl/ognl/2.6.9/ognl-2.6.9.jar = 1668760921000
+/home/daniel/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar = 1668759643000
+/home/daniel/.m2/repository/commons-codec/commons-codec/1.14/commons-codec-1.14.jar = 1668759839000
+/home/daniel/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar = 1668759644000
+/home/daniel/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar = 1668760922000
+/home/daniel/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar = 1668759837000
+/home/daniel/.m2/repository/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar = 1668686800000
+/home/daniel/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar = 1668759696000
+/home/daniel/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar = 1668759691000
+/home/daniel/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1668759691000
+/home/daniel/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar = 1668759692000
+/home/daniel/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar = 1668759693000
+/home/daniel/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar = 1668759693000
+/home/daniel/.m2/repository/org/owasp/esapi/esapi/2.5.0.0/esapi-2.5.0.0.jar = 1669280968000
+/home/daniel/.m2/repository/xom/xom/1.3.7/xom-1.3.7.jar = 1669280968000
+/home/daniel/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar = 1668760923000
+/home/daniel/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar = 1669280968000
+/home/daniel/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar = 1668759698000
+/home/daniel/.m2/repository/org/owasp/antisamy/antisamy/1.7.1/antisamy-1.7.1.jar = 1669280968000
+/home/daniel/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.64.0/neko-htmlunit-2.64.0.jar = 1669280968000
+/home/daniel/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar = 1668760924000
+/home/daniel/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar = 1668760924000
+/home/daniel/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.4/httpcore5-5.1.4.jar = 1669280968000
+/home/daniel/.m2/repository/org/apache/xmlgraphics/batik-css/1.14/batik-css-1.14.jar = 1668760925000
+/home/daniel/.m2/repository/org/apache/xmlgraphics/batik-shared-resources/1.14/batik-shared-resources-1.14.jar = 1668760924000
+/home/daniel/.m2/repository/org/apache/xmlgraphics/batik-util/1.14/batik-util-1.14.jar = 1668760925000
+/home/daniel/.m2/repository/org/apache/xmlgraphics/batik-constants/1.14/batik-constants-1.14.jar = 1668760925000
+/home/daniel/.m2/repository/org/apache/xmlgraphics/batik-i18n/1.14/batik-i18n-1.14.jar = 1668760925000
+/home/daniel/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.6/xmlgraphics-commons-2.6.jar = 1668760926000
+/home/daniel/.m2/repository/xerces/xercesImpl/2.12.2/xercesImpl-2.12.2.jar = 1668760926000
+/home/daniel/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar = 1668760925000
+/home/daniel/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar = 1668760926000
+/home/daniel/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.36/log4j-over-slf4j-1.7.36.jar = 1668760925000
+/home/daniel/.m2/repository/javax/xml/jaxrpc-api/1.1/jaxrpc-api-1.1.jar = 1668759839000
+/home/daniel/.m2/repository/com/sun/xml/rpc/jaxrpc-impl/1.1.3_01/jaxrpc-impl-1.1.3_01.jar = 1668759841000
+/home/daniel/.m2/repository/com/sun/xml/rpc/jaxrpc-spi/1.1.3_01/jaxrpc-spi-1.1.3_01.jar = 1668759839000
+/home/daniel/.m2/repository/com/sun/xml/messaging/saaj/saaj-impl/1.3.19/saaj-impl-1.3.19.jar = 1668759836000
+/home/daniel/.m2/repository/org/jvnet/mimepull/mimepull/1.7/mimepull-1.7.jar = 1668760926000
+/home/daniel/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.17/FastInfoset-1.2.17.jar = 1668759836000
+/home/daniel/.m2/repository/org/glassfish/jersey/bundles/jaxrs-ri/2.37/jaxrs-ri-2.37.jar = 1668760933000
+/home/daniel/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/2.37/jersey-hk2-2.37.jar = 1668760926000
+/home/daniel/.m2/repository/org/glassfish/hk2/hk2-locator/2.6.1/hk2-locator-2.6.1.jar = 1668760926000
+/home/daniel/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar = 1668760926000
+/home/daniel/.m2/repository/org/glassfish/hk2/hk2-api/2.6.1/hk2-api-2.6.1.jar = 1668760927000
+/home/daniel/.m2/repository/org/glassfish/hk2/hk2-utils/2.6.1/hk2-utils-2.6.1.jar = 1668760927000
+/home/daniel/.m2/repository/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.jar = 1668760928000
+/home/daniel/.m2/repository/org/glassfish/jersey/core/jersey-common/2.37/jersey-common-2.37.jar = 1668760929000
+/home/daniel/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar = 1668760928000
+/home/daniel/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar = 1668760928000
+/home/daniel/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar = 1668760928000
+/home/daniel/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.37/jersey-media-jaxb-2.37.jar = 1668760929000
+/home/daniel/.m2/repository/org/glassfish/jersey/media/jersey-media-json-binding/2.37/jersey-media-json-binding-2.37.jar = 1668760929000
+/home/daniel/.m2/repository/org/glassfish/jakarta.json/1.1.6/jakarta.json-1.1.6.jar = 1668760929000
+/home/daniel/.m2/repository/org/eclipse/yasson/1.0.11/yasson-1.0.11.jar = 1668760931000
+/home/daniel/.m2/repository/org/glassfish/jakarta.json/1.1.6/jakarta.json-1.1.6-module.jar = 1668760931000
+/home/daniel/.m2/repository/jakarta/json/bind/jakarta.json.bind-api/1.0.2/jakarta.json.bind-api-1.0.2.jar = 1668760931000
+/home/daniel/.m2/repository/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar = 1668760930000
+/home/daniel/.m2/repository/org/glassfish/jersey/core/jersey-client/2.37/jersey-client-2.37.jar = 1668760931000
+/home/daniel/.m2/repository/org/glassfish/jersey/core/jersey-server/2.37/jersey-server-2.37.jar = 1668760932000
+/home/daniel/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar = 1668760931000
+/home/daniel/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.37/jersey-container-servlet-core-2.37.jar = 1668760931000
+/home/daniel/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.37/jersey-container-servlet-2.37.jar = 1668760931000
+/home/daniel/.m2/repository/org/glassfish/jersey/media/jersey-media-sse/2.37/jersey-media-sse-2.37.jar = 1668760932000
+/home/daniel/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar = 1668759839000
+/home/daniel/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar = 1668760932000
+/home/daniel/.m2/repository/org/json/json/20090211/json-20090211.jar = 1668759732000
+/home/daniel/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar = 1668760933000
+/home/daniel/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar = 1668759734000
+/home/daniel/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar = 1668759732000
+/home/daniel/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar = 1668759692000
+/home/daniel/.m2/repository/org/opendaylight/cardinal/jdmk/0.3.3/jdmk-0.3.3.jar = 1668759860000
+/home/daniel/.m2/repository/com/google/inject/guice/3.0/guice-3.0-no_aop.jar = 1668759696000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/guice/core/2.0.17/core-2.0.17.jar = 1669802039000
+/home/daniel/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.4/HdrHistogram-2.1.4.jar = 1668760933000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/guice/test/2.0.17/test-2.0.17.jar = 1669802039000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-i18n/14.6.7-SNAPSHOT/openam-i18n-14.6.7-SNAPSHOT.jar = 1671527468000
+/home/daniel/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar = 1668759694000
+/home/daniel/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar = 1668759694000
+/home/daniel/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar = 1668759695000
+/home/daniel/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar = 1668759696000
+/home/daniel/.m2/repository/org/openidentityplatform/openam/openam-shared/14.6.7-SNAPSHOT/openam-shared-14.6.7-SNAPSHOT.jar = 1671527469000
+/home/daniel/.m2/repository/com/google/inject/extensions/guice-multibindings/3.0/guice-multibindings-3.0.jar = 1668759732000
+/home/daniel/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar = 1668759515000
+/home/daniel/.m2/repository/org/openidentityplatform/commons/http-framework/core/2.0.17/core-2.0.17.jar = 1669802039000
+/home/daniel/.m2/repository/io/swagger/swagger-models/1.6.2/swagger-models-1.6.2.jar = 1668759691000
+/home/daniel/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.0-rc1/jackson-databind-2.14.0-rc1.jar = 1668759694000
+/home/daniel/.m2/repository/com/googlecode/java-ipv6/java-ipv6/0.17/java-ipv6-0.17.jar = 1668759733000
+/home/daniel/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar = 1668759695000
+/home/daniel/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar = 1668686808000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/lib/openam-core-14.6.6.jar = 1655900554000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/lib/openam-shared-14.6.6.jar = 1655900554000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/lib/json-simple-1.1.jar = 1668763949000
+/home/daniel/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar = 1668686794000
+/home/daniel/.m2/repository/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar = 1668760933000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/lib/simplecaptcha-1.2.jar = 1670842068000
+/home/daniel/.m2/repository/org/assertj/assertj-core/2.4.1/assertj-core-2.4.1.jar = 1668759499000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/src/main/java = 1668766454000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/generated-sources/annotations = 1672223091000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/apidocs/serialized-form.html = 1672223098000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/apidocs/index.html = 1672223098000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/apidocs/constant-values.html = 1672223098000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/apidocs/package-list = 1672223098000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/apidocs/allclasses-frame.html = 1672223098000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/apidocs/allclasses-noframe.html = 1672223098000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/apidocs/help-doc.html = 1672223098000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/apidocs/stylesheet.css = 1672223098000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/apidocs/script.js = 1672223098000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/apidocs/overview-tree.html = 1672223098000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/apidocs/index-all.html = 1672223098000
+/home/daniel/Escritorio/Compartida/openam/OpenAM/openam-samples/typing-authentication-module2/target/apidocs/deprecated-list.html = 1672223098000
