@@ -1,0 +1,118 @@
+<div class="container">
+
+    {{#if reqs.header}}
+        <div class="page-header">
+	    <link rel="stylesheet" type="text/css" href="typing_text.css" media="screen" />
+	    <script src="typingdna.js"></script>
+	    <script src="autocomplete-disabler.js"></script>
+	    <script src="typing-visualizer.js"></script>
+            <h1 class="text-center">{{reqs.header}}</h1>
+        </div>
+    {{/if}}
+
+    <form action="" method="post" class="form login col-sm-6 col-sm-offset-3" data-stage="{{reqs.stage}}" onsubmit="enviarPatron()">
+        <fieldset class="row">
+            {{#each reqs.callbacks}}
+                {{#equals type "ConfirmationCallback"}}
+                    {{#if ../showRememberLogin}}
+                        {{> login/_RememberLogin }}
+                    {{/if}}
+                {{/equals}}
+
+                <div class="form-group">
+                    {{callbackRender}}
+                </div>
+            {{/each}}
+
+
+            {{> login/_SelfService }}
+            {{#if firstUserNamePassStage}}
+                {{#if showSocialLogin}}
+                    {{> login/_SocialAuthn }}
+                {{/if}}
+            {{/if}}
+        </fieldset>
+    </form>
+</div>
+
+<script>
+    //INICIO DEL SCRIPT
+    //CARGAR EN LOS DISTINTOS CALLBACKS LAS DISTINTAS FUNCIONES
+    document.getElementById("loginButton_0").setAttribute("onclick","enviarPatron()");
+    var frase = document.getElementsByName("callback_4");
+    if (frase.length == 1){
+	frase[0].setAttribute("id","text");
+	frase[0].setAttribute("onclick","reset_custom()");
+	frase[0].classList.add("disable-autocomplete");
+    }
+
+    document.getElementById("hid").value = "";
+
+    //ALMACENAR EL TEXTO QUE TIENE QUE INTRODUCIR EL USUARIO
+    let output = document.getElementById("callback_3").innerHTML;
+    output = output.substring(20);
+
+    //CREAR EL CAPTURADOR DE PULSACIONES Y DESHABILITAR COPIAR, PEGAR Y AUTOCOMPLETAR
+    const tdna = new TypingDNA();
+    tdna.addTarget("text");
+
+    var autocompleteDisabler = new AutocompleteDisabler({ showTypingVisualizer: true, showTDNALogo: false });
+    autocompleteDisabler.disableAutocomplete();
+    autocompleteDisabler.disableCopyPaste();
+
+    //AÑADIR EL CAPTCHA
+    document.getElementById("callback_6").style.display = "none";
+    var captcha = document.getElementById("callback_6").innerHTML;
+    const img = document.createElement("img");
+    img.src = "data:image/gif;base64,"+captcha;
+    img.alt = "Captcha";
+    document.getElementById("callback_3").innerHTML = "";
+    document.getElementById("callback_3").appendChild(img);
+    document.getElementById("callback_6").innerHTML = "";
+    
+    //SELECCIONAR EL TEXTO QUE EN EL QUE SE VA A ESCRIBIR
+    texto = document.querySelectorAll("textarea");
+    if (texto.length == 2){
+	texto = texto[1];
+    }
+    else{
+	texto = texto[0];	
+    }
+
+    //REINICIAR  EL RECORDER CUANDO EL TEXTO SE PULSA UNA TECLA Y EL TEXTO ESTÁ VACIO (SE BORRA TODO EL TEXTO)
+    document.addEventListener('keyup', (event) => {
+	reset_custom();
+	/*if (texto.value.length == 0){
+		tdna.reset();
+		//tdna.addTarget("text");
+	}*/
+    }, false);
+
+    //FUNCION A LA QUE SE LLAMA PARA REINICIAR EL RECORDER CUANDO EL TEXTO ESTÁ VACIO
+    function reset_custom() {
+	if (texto.value.length == 0){
+		tdna.reset();
+		document.getElementById("hid").value = "invalid";
+
+		//tdna.addTarget("text");
+	}
+      
+    }
+
+    //OBTENER EL PATRÓN DE ESCRITURA Y GUARDARLO EN UN INPUT HIDDEN QUE SE ENVIARÁ AL SERVIDOR
+    function enviarPatron(){
+      console.log("enviando patron");
+      if (tdna !== ""){
+	    console.log(output);
+	    let textId = tdna.getTextId(output);
+	    let typingPattern = tdna.getTypingPattern({type:2, text:output, textId:textId, targetId:"text"});
+	    document.getElementById("hid").value = typingPattern;
+	    
+	    area = document.querySelectorAll("textarea");
+	    if (area.length == 2){
+		area[0].value = texto.value;
+	    }
+      }
+    }
+
+  </script>
