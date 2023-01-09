@@ -1,0 +1,438 @@
+11/17/2022 10:34:47:819 AM UTC: Checking license acceptance...
+11/17/2022 10:34:47:819 AM UTC: License terms accepted.
+License, legal-notices/license.txt, has been accepted.
+License Hash: O48qbZeQ6tEMLcp9HuehSI+Yzqg=.
+11/17/2022 10:34:47:824 AM UTC: Checking configuration directory /usr/openam/config.
+11/17/2022 10:34:47:824 AM UTC: ...Success.
+11/17/2022 10:34:47:824 AM UTC: Installing OpenAM configuration store
+11/17/2022 10:34:47:825 AM UTC: ...Success RSA/ECB/OAEPWithSHA1AndMGF1Padding.
+11/17/2022 10:34:47:826 AM UTC: Extracting OpenDJ, please wait...
+11/17/2022 10:34:48:289 AM UTC: Complete
+11/17/2022 10:34:48:289 AM UTC: Running OpenDJ setup
+11/17/2022 10:34:48:289 AM UTC: Setup command: --cli --adminConnectorPort 4444 --baseDN dc=openam,dc=openidentityplatform,dc=org --rootUserDN cn=Directory Manager --ldapPort 50389 --skipPortCheck --rootUserPassword xxxxxxx --jmxPort 1689 --no-prompt --doNotStart --hostname openam.example.com --noPropertiesFile --backendType je 
+
+Configuring Directory Server ..... Done.
+
+To see basic server configuration status and configuration, you can launch
+/usr/openam/config/opends/bin/status
+
+11/17/2022 10:34:50:550 AM UTC: ...Success.
+11/17/2022 10:34:50:551 AM UTC: ...Success
+11/17/2022 10:34:50:552 AM UTC: Installing OpenAM configuration store in /usr/openam/config/opends
+11/17/2022 10:34:53:976 AM UTC: ...Success.
+11/17/2022 10:34:53:978 AM UTC: Creating OpenAM suffix
+Import task 20221117103454370 scheduled to start immediately
+[17/Nov/2022:10:34:54 +0000] severity="NOTICE" msgCount=0 msgID=org.opends.messages.backend-413 message="Import task 20221117103454370 started execution"
+[17/Nov/2022:10:34:54 +0000] severity="NOTICE" msgCount=1 msgID=org.opends.messages.backend-370 message="The backend userRoot is now taken offline"
+[17/Nov/2022:10:34:54 +0000] severity="NOTICE" msgCount=2 msgID=org.opends.messages.runtime-21 message="Installation Directory:  /usr/openam/config/opends"
+[17/Nov/2022:10:34:54 +0000] severity="NOTICE" msgCount=3 msgID=org.opends.messages.runtime-23 message="Instance Directory:      /usr/openam/config/opends"
+[17/Nov/2022:10:34:54 +0000] severity="NOTICE" msgCount=4 msgID=org.opends.messages.runtime-17 message="JVM Information: 1.8.0_332-b09 by Oracle Corporation, 64-bit architecture, 2147483648 bytes heap size"
+[17/Nov/2022:10:34:54 +0000] severity="NOTICE" msgCount=5 msgID=org.opends.messages.runtime-18 message="JVM Host: openam.example.com, running Linux 5.4.0-84-generic amd64, 3582279680 bytes physical memory size, number of processors available 3"
+[17/Nov/2022:10:34:54 +0000] severity="NOTICE" msgCount=6 msgID=org.opends.messages.runtime-19 message="JVM Arguments: "-Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties", "-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager", "-Djdk.tls.ephemeralDHKeySize=2048", "-Djava.protocol.handler.pkgs=org.apache.catalina.webresources", "-Dorg.apache.catalina.security.SecurityListener.UMASK=0027", "-XX:+UseG1GC", "-Xmx2048m", "-Dcom.iplanet.services.configpath=/usr/openam/config", "-Dcom.sun.identity.configuration.directory=/usr/openam/config", "-Dignore.endorsed.dirs=", "-Dcatalina.base=/usr/local/tomcat", "-Dcatalina.home=/usr/local/tomcat", "-Djava.io.tmpdir=/usr/local/tomcat/temp""
+[17/Nov/2022:10:34:54 +0000] severity="INFORMATION" msgCount=7 msgID=org.opends.messages.backend-410 message="JE backend 'userRoot' does not specify the number of cleaner threads: defaulting to 8 threads"
+[17/Nov/2022:10:34:54 +0000] severity="INFORMATION" msgCount=8 msgID=org.opends.messages.backend-411 message="JE backend 'userRoot' does not specify the number of lock tables: defaulting to 7"
+[17/Nov/2022:10:34:54 +0000] severity="NOTICE" msgCount=9 msgID=org.opends.messages.backend-533 message="OpenDJ Server 4.5.0 starting import (build 20220601103942, Rca422532a6058df4c98beed30ec6c746e02c4e57)"
+[17/Nov/2022:10:34:55 +0000] severity="NOTICE" msgCount=10 msgID=org.opends.messages.backend-528 message="The amount of free memory available to the import task is 1932735283 bytes. The number of phase one buffers required is 80 buffers"
+[17/Nov/2022:10:34:55 +0000] severity="NOTICE" msgCount=11 msgID=org.opends.messages.backend-520 message="Setting DB cache size to 33554432 bytes and phase one buffer size to 4194304 bytes"
+[17/Nov/2022:10:34:55 +0000] severity="NOTICE" msgCount=12 msgID=org.opends.messages.backend-534 message="Import Thread Count: 2 threads"
+[17/Nov/2022:10:34:55 +0000] severity="NOTICE" msgCount=13 msgID=org.opends.messages.backend-531 message="Total import time was 0 seconds. Phase one processing completed in 0 seconds, phase two processing completed in 0 seconds"
+[17/Nov/2022:10:34:55 +0000] severity="NOTICE" msgCount=14 msgID=org.opends.messages.backend-519 message="Processed 3 entries, imported 3, skipped 0, rejected 0 and migrated 0 in 1 seconds (average rate 2.7/sec)"
+[17/Nov/2022:10:34:55 +0000] severity="NOTICE" msgCount=15 msgID=org.opends.messages.backend-526 message="Import LDIF environment close took 0 seconds"
+[17/Nov/2022:10:34:55 +0000] severity="NOTICE" msgCount=16 msgID=org.opends.messages.backend-518 message="Flushing data to disk"
+[17/Nov/2022:10:34:55 +0000] severity="INFORMATION" msgCount=17 msgID=org.opends.messages.backend-410 message="JE backend 'userRoot' does not specify the number of cleaner threads: defaulting to 8 threads"
+[17/Nov/2022:10:34:55 +0000] severity="INFORMATION" msgCount=18 msgID=org.opends.messages.backend-411 message="JE backend 'userRoot' does not specify the number of lock tables: defaulting to 7"
+[17/Nov/2022:10:34:55 +0000] severity="NOTICE" msgCount=19 msgID=org.opends.messages.backend-513 message="The database backend userRoot containing 3 entries has started"
+[17/Nov/2022:10:34:55 +0000] severity="INFORMATION" msgCount=20 msgID=org.opends.messages.access_control-50 message="Added 1 Access Control Instruction (ACI) attribute types found in context "dc=openam,dc=openidentityplatform,dc=org" to the access control evaluation engine"
+[17/Nov/2022:10:34:55 +0000] severity="NOTICE" msgCount=21 msgID=org.opends.messages.backend-414 message="Import task 20221117103454370 finished execution in the state Completed successfully"
+Import task 20221117103454370 has been successfully completed
+11/17/2022 10:34:57:503 AM UTC: ...Success
+11/17/2022 10:34:57:623 AM UTC: Tag swapping schema files.
+11/17/2022 10:34:57:699 AM UTC: ...Success.
+11/17/2022 10:34:57:699 AM UTC: Loading Schema opendj_config_schema.ldif
+11/17/2022 10:34:57:770 AM UTC: ...Success.
+11/17/2022 10:34:57:770 AM UTC: Loading Schema opendj_user_schema.ldif
+11/17/2022 10:34:57:825 AM UTC: ...Success.
+11/17/2022 10:34:57:825 AM UTC: Loading Schema opendj_embinit.ldif
+11/17/2022 10:34:57:850 AM UTC: ...Success.
+11/17/2022 10:34:57:850 AM UTC: Loading Schema opendj_user_index.ldif
+11/17/2022 10:34:57:911 AM UTC: ...Success.
+11/17/2022 10:34:57:911 AM UTC: Loading Schema cts-container.ldif
+11/17/2022 10:34:57:941 AM UTC: ...Success.
+11/17/2022 10:34:57:941 AM UTC: Loading Schema cts-add-schema.ldif
+11/17/2022 10:34:57:999 AM UTC: ...Success.
+11/17/2022 10:34:58:000 AM UTC: Loading Schema cts-add-multivalue.ldif
+11/17/2022 10:34:58:082 AM UTC: ...Success.
+11/17/2022 10:34:58:082 AM UTC: Loading Schema cts-indices.ldif
+11/17/2022 10:34:58:303 AM UTC: ...Success.
+11/17/2022 10:34:58:303 AM UTC: Loading Schema cts-add-multivalue-indices.ldif
+11/17/2022 10:34:58:341 AM UTC: ...Success.
+11/17/2022 10:34:58:342 AM UTC: Loading Schema opendj_dashboard.ldif
+11/17/2022 10:34:58:397 AM UTC: ...Success.
+11/17/2022 10:34:58:397 AM UTC: Loading Schema opendj_deviceprint.ldif
+11/17/2022 10:34:58:446 AM UTC: ...Success.
+11/17/2022 10:34:58:446 AM UTC: Loading Schema opendj_kba.ldif
+11/17/2022 10:34:58:505 AM UTC: ...Success.
+11/17/2022 10:34:58:505 AM UTC: Loading Schema opendj_uma_audit.ldif
+11/17/2022 10:34:58:522 AM UTC: ...Success.
+11/17/2022 10:34:58:522 AM UTC: Loading Schema opendj_uma_resource_sets.ldif
+11/17/2022 10:34:58:544 AM UTC: ...Success.
+11/17/2022 10:34:58:544 AM UTC: Loading Schema opendj_uma_labels_schema.ldif
+11/17/2022 10:34:58:605 AM UTC: ...Success.
+11/17/2022 10:34:58:605 AM UTC: Loading Schema opendj_uma_resource_set_labels.ldif
+11/17/2022 10:34:58:621 AM UTC: ...Success.
+11/17/2022 10:34:58:621 AM UTC: Loading Schema opendj_uma_pending_requests.ldif
+11/17/2022 10:34:58:630 AM UTC: ...Success.
+11/17/2022 10:34:58:630 AM UTC: Loading Schema opendj_oathdevices.ldif
+11/17/2022 10:34:58:690 AM UTC: ...Success.
+11/17/2022 10:34:58:690 AM UTC: Loading Schema opendj_pushdevices.ldif
+11/17/2022 10:34:58:744 AM UTC: ...Success.
+11/17/2022 10:35:09:832 AM UTC: ...Success.
+11/17/2022 10:35:09:833 AM UTC: Reinitializing system properties.
+11/17/2022 10:35:10:391 AM UTC: ...Done
+11/17/2022 10:35:10:398 AM UTC: Registering service dashboardService.xml
+11/17/2022 10:35:10:622 AM UTC: ...Success.
+11/17/2022 10:35:10:623 AM UTC: Registering service amEntrySpecific.xml
+11/17/2022 10:35:10:667 AM UTC: ...Success.
+11/17/2022 10:35:10:667 AM UTC: Registering service amAuthConfig.xml
+11/17/2022 10:35:10:794 AM UTC: ...Success.
+11/17/2022 10:35:10:794 AM UTC: Registering service amAuthHTTPBasic.xml
+11/17/2022 10:35:10:839 AM UTC: ...Success.
+11/17/2022 10:35:10:841 AM UTC: Registering service amAdminConsole.xml
+11/17/2022 10:35:10:914 AM UTC: ...Success.
+11/17/2022 10:35:10:914 AM UTC: Registering service idRepoService.xml
+11/17/2022 10:35:11:414 AM UTC: ...Success.
+11/17/2022 10:35:11:414 AM UTC: Registering service amAuth.xml
+11/17/2022 10:35:11:574 AM UTC: ...Success.
+11/17/2022 10:35:11:574 AM UTC: Registering service amAuthAD.xml
+11/17/2022 10:35:11:618 AM UTC: ...Success.
+11/17/2022 10:35:11:618 AM UTC: Registering service amAuthAdaptive.xml
+11/17/2022 10:35:11:692 AM UTC: ...Success.
+11/17/2022 10:35:11:692 AM UTC: Registering service amAuthAnonymous.xml
+11/17/2022 10:35:11:736 AM UTC: ...Success.
+11/17/2022 10:35:11:736 AM UTC: Registering service amAuthCert.xml
+11/17/2022 10:35:11:783 AM UTC: ...Success.
+11/17/2022 10:35:11:783 AM UTC: Registering service amAuthDataStore.xml
+11/17/2022 10:35:11:898 AM UTC: ...Success.
+11/17/2022 10:35:11:898 AM UTC: Registering service amAuthPersistentCookie.xml
+11/17/2022 10:35:11:923 AM UTC: ...Success.
+11/17/2022 10:35:11:923 AM UTC: Registering service amAuthJDBC.xml
+11/17/2022 10:35:11:964 AM UTC: ...Success.
+11/17/2022 10:35:11:965 AM UTC: Registering service amAuthLDAP.xml
+11/17/2022 10:35:12:072 AM UTC: ...Success.
+11/17/2022 10:35:12:072 AM UTC: Registering service amAuthMSISDN.xml
+11/17/2022 10:35:12:092 AM UTC: ...Success.
+11/17/2022 10:35:12:092 AM UTC: Registering service amAuthMembership.xml
+11/17/2022 10:35:12:115 AM UTC: ...Success.
+11/17/2022 10:35:12:115 AM UTC: Registering service amAuthNT.xml
+11/17/2022 10:35:12:138 AM UTC: ...Success.
+11/17/2022 10:35:12:138 AM UTC: Registering service amAuthOAuth.xml
+11/17/2022 10:35:12:175 AM UTC: ...Success.
+11/17/2022 10:35:12:175 AM UTC: Registering service amAuthWindowsDesktopSSO.xml
+11/17/2022 10:35:12:204 AM UTC: ...Success.
+11/17/2022 10:35:12:204 AM UTC: Registering service amAuthOpenIdConnect.xml
+11/17/2022 10:35:12:261 AM UTC: ...Success.
+11/17/2022 10:35:12:261 AM UTC: Registering service amClientData.xml
+11/17/2022 10:35:12:309 AM UTC: ...Success.
+11/17/2022 10:35:12:309 AM UTC: Registering service amClientDetection.xml
+11/17/2022 10:35:12:332 AM UTC: ...Success.
+11/17/2022 10:35:12:332 AM UTC: Registering service amDelegation.xml
+11/17/2022 10:35:12:708 AM UTC: ...Success.
+11/17/2022 10:35:12:708 AM UTC: Registering service amFilteredRole.xml
+11/17/2022 10:35:12:720 AM UTC: ...Success.
+11/17/2022 10:35:12:720 AM UTC: Registering service amG11NSettings.xml
+11/17/2022 10:35:12:774 AM UTC: ...Success.
+11/17/2022 10:35:12:774 AM UTC: Registering service amLogging.xml
+11/17/2022 10:35:12:849 AM UTC: ...Success.
+11/17/2022 10:35:12:849 AM UTC: Registering service amNaming.xml
+11/17/2022 10:35:12:864 AM UTC: ...Success.
+11/17/2022 10:35:12:864 AM UTC: Registering service amPlatform.xml
+11/17/2022 10:35:12:936 AM UTC: ...Success.
+11/17/2022 10:35:12:936 AM UTC: Registering service amPolicy.xml
+11/17/2022 10:35:13:424 AM UTC: ...Success.
+11/17/2022 10:35:13:424 AM UTC: Registering service amPolicyConfig.xml
+11/17/2022 10:35:13:535 AM UTC: ...Success.
+11/17/2022 10:35:13:535 AM UTC: Registering service amRealmService.xml
+11/17/2022 10:35:13:560 AM UTC: ...Success.
+11/17/2022 10:35:13:560 AM UTC: Registering service amSession.xml
+11/17/2022 10:35:13:710 AM UTC: ...Success.
+11/17/2022 10:35:13:710 AM UTC: Registering service amWebAgent.xml
+11/17/2022 10:35:13:767 AM UTC: ...Success.
+11/17/2022 10:35:13:767 AM UTC: Registering service crestPolicyService.xml
+11/17/2022 10:35:13:795 AM UTC: ...Success.
+11/17/2022 10:35:13:795 AM UTC: Registering service amUser.xml
+11/17/2022 10:35:13:826 AM UTC: ...Success.
+11/17/2022 10:35:13:826 AM UTC: Registering service identityLocaleService.xml
+11/17/2022 10:35:13:902 AM UTC: ...Success.
+11/17/2022 10:35:13:902 AM UTC: Registering service amAgent70.xml
+11/17/2022 10:35:13:936 AM UTC: ...Success.
+11/17/2022 10:35:13:936 AM UTC: Registering service amPasswordReset.xml
+11/17/2022 10:35:13:973 AM UTC: ...Success.
+11/17/2022 10:35:13:974 AM UTC: Registering service amAuthRadius.xml
+11/17/2022 10:35:14:002 AM UTC: ...Success.
+11/17/2022 10:35:14:002 AM UTC: Registering service amAuthHOTP.xml
+11/17/2022 10:35:14:088 AM UTC: ...Success.
+11/17/2022 10:35:14:090 AM UTC: Registering service amMonitoring.xml
+11/17/2022 10:35:14:113 AM UTC: ...Success.
+11/17/2022 10:35:14:113 AM UTC: Registering service AgentService.xml
+11/17/2022 10:35:14:514 AM UTC: ...Success.
+11/17/2022 10:35:14:514 AM UTC: Registering service policyIndex.xml
+11/17/2022 10:35:14:613 AM UTC: ...Success.
+11/17/2022 10:35:14:613 AM UTC: Registering service entitlement.xml
+11/17/2022 10:35:14:795 AM UTC: ...Success.
+11/17/2022 10:35:14:795 AM UTC: Registering service openProvisioning.xml
+11/17/2022 10:35:14:822 AM UTC: ...Success.
+11/17/2022 10:35:14:823 AM UTC: Registering service banking.xml
+11/17/2022 10:35:14:857 AM UTC: ...Success.
+11/17/2022 10:35:14:857 AM UTC: Registering service CoreTokenConfig.xml
+11/17/2022 10:35:14:883 AM UTC: ...Success.
+11/17/2022 10:35:14:883 AM UTC: Registering service CoreTokenStore.xml
+11/17/2022 10:35:14:974 AM UTC: ...Success.
+11/17/2022 10:35:14:975 AM UTC: Registering service amAuthAuthenticatorOATH.xml
+11/17/2022 10:35:15:000 AM UTC: ...Success.
+11/17/2022 10:35:15:000 AM UTC: Registering service AuthenticatorOATH.xml
+11/17/2022 10:35:15:037 AM UTC: ...Success.
+11/17/2022 10:35:15:037 AM UTC: Registering service fmAuthFederation.xml
+11/17/2022 10:35:15:108 AM UTC: ...Success.
+11/17/2022 10:35:15:113 AM UTC: Registering service fmAuthSAE.xml
+11/17/2022 10:35:15:179 AM UTC: ...Success.
+11/17/2022 10:35:15:179 AM UTC: Registering service fmAuthnSvc.xml
+11/17/2022 10:35:15:193 AM UTC: ...Success.
+11/17/2022 10:35:15:193 AM UTC: Registering service fmDisco.xml
+11/17/2022 10:35:15:209 AM UTC: ...Success.
+11/17/2022 10:35:15:209 AM UTC: Registering service fmIDFF.xml
+11/17/2022 10:35:15:227 AM UTC: ...Success.
+11/17/2022 10:35:15:227 AM UTC: Registering service fmLibertyPersonalProfile.xml
+11/17/2022 10:35:15:256 AM UTC: ...Success.
+11/17/2022 10:35:15:256 AM UTC: Registering service fmCOTConfig.xml
+11/17/2022 10:35:15:268 AM UTC: ...Success.
+11/17/2022 10:35:15:272 AM UTC: Registering service fmSAML2.xml
+11/17/2022 10:35:15:292 AM UTC: ...Success.
+11/17/2022 10:35:15:292 AM UTC: Registering service fmSAML.xml
+11/17/2022 10:35:15:303 AM UTC: ...Success.
+11/17/2022 10:35:15:303 AM UTC: Registering service fmSOAPBinding.xml
+11/17/2022 10:35:15:315 AM UTC: ...Success.
+11/17/2022 10:35:15:315 AM UTC: Registering service fmSAML2SOAPBinding.xml
+11/17/2022 10:35:15:324 AM UTC: ...Success.
+11/17/2022 10:35:15:324 AM UTC: Registering service fmWSFederation.xml
+11/17/2022 10:35:15:333 AM UTC: ...Success.
+11/17/2022 10:35:15:333 AM UTC: Registering service fmMultiProtocol.xml
+11/17/2022 10:35:15:342 AM UTC: ...Success.
+11/17/2022 10:35:15:342 AM UTC: Registering service famSTS.xml
+11/17/2022 10:35:15:357 AM UTC: ...Success.
+11/17/2022 10:35:15:357 AM UTC: Registering service famFederationCommon.xml
+11/17/2022 10:35:15:376 AM UTC: ...Success.
+11/17/2022 10:35:15:377 AM UTC: Registering service famIDFFConfig.xml
+11/17/2022 10:35:15:389 AM UTC: ...Success.
+11/17/2022 10:35:15:389 AM UTC: Registering service famSAML2Config.xml
+11/17/2022 10:35:15:409 AM UTC: ...Success.
+11/17/2022 10:35:15:409 AM UTC: Registering service famWSSAuthService.xml
+11/17/2022 10:35:15:450 AM UTC: ...Success.
+11/17/2022 10:35:15:450 AM UTC: Registering service OAuth2Provider.xml
+11/17/2022 10:35:15:475 AM UTC: ...Success.
+11/17/2022 10:35:15:475 AM UTC: Registering service UmaProvider.xml
+11/17/2022 10:35:15:487 AM UTC: ...Success.
+11/17/2022 10:35:15:487 AM UTC: Registering service MailServer.xml
+11/17/2022 10:35:15:497 AM UTC: ...Success.
+11/17/2022 10:35:15:497 AM UTC: Registering service RestSecurity.xml
+11/17/2022 10:35:15:507 AM UTC: ...Success.
+11/17/2022 10:35:15:508 AM UTC: Registering service amAuthScripted.xml
+11/17/2022 10:35:15:518 AM UTC: ...Success.
+11/17/2022 10:35:15:518 AM UTC: Registering service amAuthDeviceIdMatch.xml
+11/17/2022 10:35:15:528 AM UTC: ...Success.
+11/17/2022 10:35:15:528 AM UTC: Registering service amAuthDeviceIdSave.xml
+11/17/2022 10:35:15:537 AM UTC: ...Success.
+11/17/2022 10:35:15:537 AM UTC: Registering service restSTS.xml
+11/17/2022 10:35:15:562 AM UTC: ...Success.
+11/17/2022 10:35:15:562 AM UTC: Registering service soapSTS.xml
+11/17/2022 10:35:15:590 AM UTC: ...Success.
+11/17/2022 10:35:15:590 AM UTC: Registering service validationService.xml
+11/17/2022 10:35:15:600 AM UTC: ...Success.
+11/17/2022 10:35:15:601 AM UTC: Registering service RestApis.xml
+11/17/2022 10:35:15:622 AM UTC: ...Success.
+11/17/2022 10:35:15:622 AM UTC: Registering service socialAuthN.xml
+11/17/2022 10:35:15:645 AM UTC: ...Success.
+11/17/2022 10:35:15:645 AM UTC: Registering service amBaseURL.xml
+11/17/2022 10:35:15:658 AM UTC: ...Success.
+11/17/2022 10:35:15:658 AM UTC: Registering service scripting.xml
+11/17/2022 10:35:15:842 AM UTC: ...Success.
+11/17/2022 10:35:15:842 AM UTC: Registering service amAuthOATH.xml
+11/17/2022 10:35:15:922 AM UTC: ...Success.
+11/17/2022 10:35:15:922 AM UTC: Registering service amAuthSAML2.xml
+11/17/2022 10:35:15:945 AM UTC: ...Success.
+11/17/2022 10:35:15:945 AM UTC: Registering service audit.xml
+11/17/2022 10:35:16:088 AM UTC: ...Success.
+11/17/2022 10:35:16:088 AM UTC: Registering service RadiusServerService.xml
+11/17/2022 10:35:16:108 AM UTC: ...Success.
+11/17/2022 10:35:16:108 AM UTC: Registering service amSessionPropertyWhitelist.xml
+11/17/2022 10:35:16:123 AM UTC: ...Success.
+11/17/2022 10:35:16:123 AM UTC: Registering service selfService.xml
+11/17/2022 10:35:16:144 AM UTC: ...Success.
+11/17/2022 10:35:16:144 AM UTC: Registering service amPushNotification.xml
+11/17/2022 10:35:16:160 AM UTC: ...Success.
+11/17/2022 10:35:16:160 AM UTC: Registering service amAuthAuthenticatorPush.xml
+11/17/2022 10:35:16:184 AM UTC: ...Success.
+11/17/2022 10:35:16:185 AM UTC: Registering service AuthenticatorPush.xml
+11/17/2022 10:35:16:196 AM UTC: ...Success.
+11/17/2022 10:35:16:196 AM UTC: Registering service amAuthAuthenticatorPushRegistration.xml
+11/17/2022 10:35:16:218 AM UTC: ...Success.
+11/17/2022 10:35:16:218 AM UTC: Registering service amAuthAmster.xml
+11/17/2022 10:35:16:293 AM UTC: ...Success.
+11/17/2022 10:35:16:293 AM UTC: Registering service amAuthReCaptcha.xml
+11/17/2022 10:35:16:315 AM UTC: ...Success.
+11/17/2022 10:35:16:315 AM UTC: Registering service amAuthSecurID.xml
+11/17/2022 10:35:16:339 AM UTC: ...Success.
+11/17/2022 10:35:16:339 AM UTC: Registering service amAuthWebAuthnRegistration.xml
+11/17/2022 10:35:16:352 AM UTC: ...Success.
+11/17/2022 10:35:16:353 AM UTC: Registering service amAuthWebAuthnAuthentication.xml
+11/17/2022 10:35:16:365 AM UTC: ...Success.
+11/17/2022 10:35:16:368 AM UTC: Registering service amAuthQR.xml
+11/17/2022 10:35:16:394 AM UTC: ...Success.
+11/17/2022 10:35:16:449 AM UTC: Configuring system.
+11/17/2022 10:35:18:021 AM UTC: ...Done
+11/17/2022 10:35:18:021 AM UTC: Configuring server instance.
+11/17/2022 10:35:18:105 AM UTC: ...Done
+11/17/2022 10:35:19:465 AM UTC: Creating demo user.
+11/17/2022 10:35:19:484 AM UTC: ...Done
+11/17/2022 10:35:19:484 AM UTC: Creating Web Service Security Agents.
+11/17/2022 10:35:19:542 AM UTC: ...Done
+11/17/2022 10:35:19:545 AM UTC: Setting up monitoring authentication file.
+
+
+Dumping all configuration parameters...
+
+Request Parameters:
+acceptLicense = true
+actionLink = createDefaultConfig
+ADMIN_CONFIRM_PWD = #########
+ADMIN_PWD = #########
+AM_ENC_KEY = #########
+AMLDAPUSERPASSWD = #########
+AMLDAPUSERPASSWD_CONFIRM = #########
+BASE_DIR = /usr/openam/config
+COOKIE_DOMAIN = openam.example.com
+DATA_STORE = embedded
+DIRECTORY_ADMIN_PORT = 4444
+DIRECTORY_JMX_PORT = 1689
+DIRECTORY_PORT = 50389
+DIRECTORY_SERVER = openam.example.com
+DIRECTORY_SSL = SIMPLE
+DS_DIRMGRPASSWD = #########
+locale = en_US
+PLATFORM_LOCALE = en_US
+SERVER_HOST = openam.example.com
+SERVER_PORT = 8080
+SERVER_URI = /openam/config/defaultSummary.htm
+SERVER_URL = http://openam.example.com:8080/openam/config/defaultSummary.htm
+SESSION_ROOT_SUFFIX = ou=openam-session
+SESSION_STORE_TYPE = none
+
+Main configuration items:
+acceptLicense = true
+actionLink = createDefaultConfig
+ADMIN_PWD = #########
+AM_COEXIST = false
+AM_ENC_KEY = #########
+AM_REALM = true
+AMLDAPUSERPASSWD = #########
+AMSDK_I18N_KEY = a101
+AUTH_DEFAULT_CONFIG = ldapService
+AUTHNSVC_CRAMMD5_MECHANISM_HANDLER = com.sun.identity.liberty.ws.authnsvc.mechanism.CramMD5MechanismHandler
+AUTHNSVC_PLAIN_MECHANISM_HANDLER = com.sun.identity.liberty.ws.authnsvc.mechanism.PlainMechanismHandler
+AUTHNSVC_SSOTOKEN_MECHANISM_HANDLER = com.sun.identity.liberty.ws.authnsvc.mechanism.SSOTokenMechanismHandler
+BASE_DIR = /usr/openam/config
+CONFIGURATION_PROVIDER_CLASS = com.sun.identity.plugin.configuration.impl.ConfigurationInstanceImpl
+CONSOLE_URI = /openam
+COOKIE_DOMAIN = openam.example.com
+COOKIE_ENCODE = false
+DATA_STORE = embedded
+DATASTORE_NOTIFICATION = true
+DATASTORE_PROVIDER_CLASS = com.sun.identity.plugin.datastore.impl.IdRepoDataStoreProvider
+DB_NAME = userRoot
+DEBUG_DIR = debug
+DEBUG_SUBDIR = debug
+DEFAULT_AUTH_MODULE = DataStore
+DEFAULT_ORG = dc=openam,dc=openidentityplatform,dc=org
+DIRECTORY_ADMIN_PORT = 4444
+DIRECTORY_JMX_PORT = 1689
+DIRECTORY_PORT = 50389
+DIRECTORY_SERVER = openam.example.com
+DIRECTORY_SSL = SIMPLE
+DISABLE_PERSISTENT_SEARCH = aci,um
+DISCO_AUTHORIZER = com.sun.identity.liberty.ws.disco.plugins.DefaultDiscoAuthorizer
+DISCO_ENTRY_HANDLER = com.sun.identity.liberty.ws.disco.plugins.UserDiscoEntryHandler
+DISCO_GLOBAL_ENTRY_HANDLER = com.sun.identity.liberty.ws.disco.plugins.GlobalDiscoEntryHandler
+DIT_LOADED = false
+DS_DIRMGRDN = cn=Directory Manager
+DS_DIRMGRPASSWD = #########
+DS_OBJECT_CLASS = ldap.SMSLdapObject
+DS_UM_SCHEMA = sms
+EMBEDDED_DS_OBJECT_CLASS = ldap.SMSEmbeddedLdapObject
+ENCADADMINPASSWD = #########
+ENCADMINPASSWD = #########
+ENCDSDIRMGRPASSWD = #########
+ENCLDAPUSERPASSWD = #########
+GlobalClientSideAuthModuleScriptId = c827d2b4-3608-4693-868e-bbcf86bd87c7
+GlobalClientSideDeviceIdMatchScriptId = 157298c0-7d31-4059-a95b-eeb08473b7e5
+GlobalEntitlementConditionScriptId = 9de3eb62-f131-4fac-a294-7bd170fd4acb
+GlobalOidcClaimsScriptId = 36863ffb-40ec-48b9-94b1-9a99f71cc3b5
+GlobalServerSideAuthModuleScriptId = 7e3d7067-d50f-4674-8c76-a3e13a810c33
+GlobalServerSideDeviceIdMatchScriptId = 703dab1a-1921-4981-98dd-b8e5349d8548
+HASHADMINPASSWD = #########
+HASHLDAPUSERPASSWD = #########
+IDPP_AUTHORIZER = com.sun.identity.liberty.ws.idpp.plugin.IDPPAuthorizer
+IS_INSTALL_VARDIR = baseDir
+IS_PRODNAME = /openam
+LDAP_CONNECTION_MODE = LDAP
+locale = en_US
+LOG_DIR = log
+LOG_PROVIDER_CLASS = com.sun.identity.plugin.log.impl.LogProvider
+MONAGENT_PROVIDER_CLASS = com.sun.identity.plugin.monitoring.impl.AgentProvider
+MONIDFF_PROVIDER_CLASS = com.sun.identity.plugin.monitoring.impl.FedMonIDFFSvcProvider
+MONSAML1_PROVIDER_CLASS = com.sun.identity.plugin.monitoring.impl.FedMonSAML1SvcProvider
+MONSAML2_PROVIDER_CLASS = com.sun.identity.plugin.monitoring.impl.FedMonSAML2SvcProvider
+NORMALIZED_ORGBASE = dc=openam,dc=openidentityplatform,dc=org
+NORMALIZED_RS = dc=openam,dc=openidentityplatform,dc=org
+NoScriptDefined = [Empty]
+OLDCON_DEPLOY_URI = /openam
+OPENDS_TRANSFORMATION = RSA/ECB/OAEPWithSHA1AndMGF1Padding
+ORG_BASE = dc=openam,dc=openidentityplatform,dc=org
+ORG_NAMING_ATTR = o
+ORG_OBJECT_CLASS = sunismanagedorganization
+ORG_ROOT_SUFFIX = dc=openam,dc=openidentityplatform,dc=org
+OUTPUT_DIR = basedir/uri
+PAM_SERVICE_NAME = other
+People_NM_ORG_ROOT_SUFFIX = People_dc=openam_dc=openidentityplatform_dc=org
+PLATFORM_LOCALE = en_US
+ROOT_SUFFIX = dc=openam,dc=openidentityplatform,dc=org
+RS_RDN = openam
+SERVER_HOST = openam.example.com
+SERVER_PORT = 8080
+SERVER_PROTO = http
+SERVER_URI = /openam
+SERVER_URL = http://openam.example.com:8080
+SESSION_PROVIDER_CLASS = com.sun.identity.plugin.session.impl.FMSessionProvider
+SESSION_ROOT_SUFFIX = ou=openam-session
+SESSION_STORE_TYPE = none
+SM_CONFIG_BASEDN = dc=openam,dc=openidentityplatform,dc=org
+SM_CONFIG_BASEDN_RDNV = openam
+SM_CONFIG_ROOT_SUFFIX = dc=openam,dc=openidentityplatform,dc=org
+SM_ROOT_SUFFIX_HAT = dc=openam^dc=openidentityplatform^dc=org
+SM_ROOT_SUFFIX_HAT_SLASH = dc\=openam^dc\=openidentityplatform^dc\=org
+SMS_OBJECT_CLASS = flatfile.SMSEnhancedFlatFileObject
+SSHA512LDAPUSERPWD = #########
+UM_DIRECTORY_PORT = 50389
+UM_DIRECTORY_SERVER = openam.example.com
+UM_DS_DIRMGRDN = cn=Directory Manager
+UM_DS_DIRMGRPASSWD = #########
+UM_ENABLED = true
+UM_NORMALIZED_ORGBASE = dc=openam,dc=openidentityplatform,dc=org
+UM_SSL = false
+USER_HOME = /root
+USER_NAMING_ATTR = uid
+USER_OBJECT_CLASS = inetorgperson
+USER_PROFILE_CHOICE = false
+VERSION = OpenAM 14.6.6 (2022-June-22 12:21)
+WEB_SERVICE_AUTHENTICATOR = com.sun.identity.liberty.ws.soapbinding.WebServiceAuthenticatorImpl
+XML_ENCODING = ISO-8859-1
+
+Finished dumping all configuration parameters

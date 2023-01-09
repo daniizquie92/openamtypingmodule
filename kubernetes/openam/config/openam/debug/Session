@@ -1,0 +1,685 @@
+
+amCoreTokenService:12/28/2022 11:07:30:011 AM UTC: Thread[CTSWorkerPool-2,5,main]: TransactionId[b62e99d1-d57e-4a4c-ac0f-b78079902ea1-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 11:07:30:212 AM UTC: Thread[CTSWorkerPool-7,5,main]: TransactionId[b62e99d1-d57e-4a4c-ac0f-b78079902ea1-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 11:07:30:212 AM UTC: Thread[CTSWorkerPool-6,5,main]: TransactionId[b62e99d1-d57e-4a4c-ac0f-b78079902ea1-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 11:07:30:212 AM UTC: Thread[CTSWorkerPool-5,5,main]: TransactionId[b62e99d1-d57e-4a4c-ac0f-b78079902ea1-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 11:07:30:212 AM UTC: Thread[CTSWorkerPool-0,5,main]: TransactionId[b62e99d1-d57e-4a4c-ac0f-b78079902ea1-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 11:07:30:213 AM UTC: Thread[CTSWorkerPool-3,5,main]: TransactionId[b62e99d1-d57e-4a4c-ac0f-b78079902ea1-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 11:07:30:213 AM UTC: Thread[CTSWorkerPool-1,5,main]: TransactionId[b62e99d1-d57e-4a4c-ac0f-b78079902ea1-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 11:07:30:215 AM UTC: Thread[CTSWorkerPool-4,5,main]: TransactionId[b62e99d1-d57e-4a4c-ac0f-b78079902ea1-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amSession:12/28/2022 12:10:58:429 PM UTC: Thread[CTSWorkerPool-5,5,main]: TransactionId[5806d12e-22e4-4d0a-9136-3a07463f5baf-0]
+ERROR: Continuous query listener has lost its connection
+amCoreTokenService:12/28/2022 12:20:41:554 PM UTC: Thread[CTSWorkerPool-4,5,main]: TransactionId[5806d12e-22e4-4d0a-9136-3a07463f5baf-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 12:20:41:553 PM UTC: Thread[CTSWorkerPool-2,5,main]: TransactionId[5806d12e-22e4-4d0a-9136-3a07463f5baf-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 12:20:41:555 PM UTC: Thread[CTSWorkerPool-5,5,main]: TransactionId[5806d12e-22e4-4d0a-9136-3a07463f5baf-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 12:20:41:556 PM UTC: Thread[CTSWorkerPool-6,5,main]: TransactionId[5806d12e-22e4-4d0a-9136-3a07463f5baf-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 12:20:41:558 PM UTC: Thread[CTSWorkerPool-3,5,main]: TransactionId[5806d12e-22e4-4d0a-9136-3a07463f5baf-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 12:20:41:572 PM UTC: Thread[CTSWorkerPool-7,5,main]: TransactionId[5806d12e-22e4-4d0a-9136-3a07463f5baf-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 12:20:41:585 PM UTC: Thread[CTSWorkerPool-0,5,main]: TransactionId[5806d12e-22e4-4d0a-9136-3a07463f5baf-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/28/2022 12:20:41:586 PM UTC: Thread[CTSWorkerPool-1,5,main]: TransactionId[5806d12e-22e4-4d0a-9136-3a07463f5baf-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amSession:12/29/2022 10:26:24:760 AM UTC: Thread[CTSWorkerPool-5,5,main]: TransactionId[d72136b4-35bd-451a-b332-0895cf91bf3e-0]
+ERROR: Continuous query listener has lost its connection
+amCoreTokenService:12/29/2022 10:37:23:749 AM UTC: Thread[CTSWorkerPool-7,5,main]: TransactionId[d72136b4-35bd-451a-b332-0895cf91bf3e-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/29/2022 10:37:23:750 AM UTC: Thread[CTSWorkerPool-3,5,main]: TransactionId[d72136b4-35bd-451a-b332-0895cf91bf3e-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/29/2022 10:37:23:759 AM UTC: Thread[CTSWorkerPool-1,5,main]: TransactionId[d72136b4-35bd-451a-b332-0895cf91bf3e-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/29/2022 10:37:23:759 AM UTC: Thread[CTSWorkerPool-4,5,main]: TransactionId[d72136b4-35bd-451a-b332-0895cf91bf3e-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/29/2022 10:37:23:759 AM UTC: Thread[CTSWorkerPool-2,5,main]: TransactionId[d72136b4-35bd-451a-b332-0895cf91bf3e-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/29/2022 10:37:23:759 AM UTC: Thread[CTSWorkerPool-0,5,main]: TransactionId[d72136b4-35bd-451a-b332-0895cf91bf3e-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/29/2022 10:37:23:760 AM UTC: Thread[CTSWorkerPool-5,5,main]: TransactionId[d72136b4-35bd-451a-b332-0895cf91bf3e-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:12/29/2022 10:37:23:760 AM UTC: Thread[CTSWorkerPool-6,5,main]: TransactionId[d72136b4-35bd-451a-b332-0895cf91bf3e-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amSession:01/03/2023 12:40:10:847 PM UTC: Thread[CTSWorkerPool-6,5,main]: TransactionId[6271e79c-2933-4997-91bc-52449f42d65c-0]
+ERROR: Continuous query listener has lost its connection
+amCoreTokenService:01/03/2023 12:45:37:268 PM UTC: Thread[CTSWorkerPool-7,5,main]: TransactionId[6271e79c-2933-4997-91bc-52449f42d65c-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/03/2023 12:45:37:287 PM UTC: Thread[CTSWorkerPool-6,5,main]: TransactionId[6271e79c-2933-4997-91bc-52449f42d65c-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/03/2023 12:45:37:292 PM UTC: Thread[CTSWorkerPool-0,5,main]: TransactionId[6271e79c-2933-4997-91bc-52449f42d65c-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/03/2023 12:45:37:295 PM UTC: Thread[CTSWorkerPool-4,5,main]: TransactionId[6271e79c-2933-4997-91bc-52449f42d65c-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/03/2023 12:45:37:497 PM UTC: Thread[CTSWorkerPool-3,5,main]: TransactionId[6271e79c-2933-4997-91bc-52449f42d65c-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/03/2023 12:45:37:498 PM UTC: Thread[CTSWorkerPool-1,5,main]: TransactionId[6271e79c-2933-4997-91bc-52449f42d65c-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/03/2023 12:45:37:500 PM UTC: Thread[CTSWorkerPool-2,5,main]: TransactionId[6271e79c-2933-4997-91bc-52449f42d65c-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/03/2023 12:45:37:501 PM UTC: Thread[CTSWorkerPool-5,5,main]: TransactionId[6271e79c-2933-4997-91bc-52449f42d65c-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amSession:01/05/2023 11:15:27:496 AM UTC: Thread[CTSWorkerPool-0,5,main]: TransactionId[4dc50135-421a-4bc9-b7b7-655a96deaf13-0]
+ERROR: Continuous query listener has lost its connection
+amCoreTokenService:01/05/2023 11:17:26:703 AM UTC: Thread[CTSWorkerPool-4,5,main]: TransactionId[4dc50135-421a-4bc9-b7b7-655a96deaf13-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/05/2023 11:17:26:701 AM UTC: Thread[CTSWorkerPool-6,5,main]: TransactionId[4dc50135-421a-4bc9-b7b7-655a96deaf13-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/05/2023 11:17:26:721 AM UTC: Thread[CTSWorkerPool-5,5,main]: TransactionId[4dc50135-421a-4bc9-b7b7-655a96deaf13-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/05/2023 11:17:26:721 AM UTC: Thread[CTSWorkerPool-0,5,main]: TransactionId[4dc50135-421a-4bc9-b7b7-655a96deaf13-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/05/2023 11:17:26:721 AM UTC: Thread[CTSWorkerPool-1,5,main]: TransactionId[4dc50135-421a-4bc9-b7b7-655a96deaf13-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/05/2023 11:17:26:721 AM UTC: Thread[CTSWorkerPool-7,5,main]: TransactionId[4dc50135-421a-4bc9-b7b7-655a96deaf13-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/05/2023 11:17:26:721 AM UTC: Thread[CTSWorkerPool-2,5,main]: TransactionId[4dc50135-421a-4bc9-b7b7-655a96deaf13-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/05/2023 11:17:26:722 AM UTC: Thread[CTSWorkerPool-3,5,main]: TransactionId[4dc50135-421a-4bc9-b7b7-655a96deaf13-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amSession:01/09/2023 08:16:01:487 AM UTC: Thread[CTSWorkerPool-3,5,main]: TransactionId[bd799297-9f73-4c44-b4ba-5e14f3de902d-0]
+ERROR: Continuous query listener has lost its connection
+amCoreTokenService:01/09/2023 08:20:15:581 AM UTC: Thread[CTSWorkerPool-2,5,main]: TransactionId[bd799297-9f73-4c44-b4ba-5e14f3de902d-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/09/2023 08:20:15:587 AM UTC: Thread[CTSWorkerPool-7,5,main]: TransactionId[bd799297-9f73-4c44-b4ba-5e14f3de902d-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/09/2023 08:20:15:600 AM UTC: Thread[CTSWorkerPool-4,5,main]: TransactionId[bd799297-9f73-4c44-b4ba-5e14f3de902d-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/09/2023 08:20:15:612 AM UTC: Thread[CTSWorkerPool-6,5,main]: TransactionId[bd799297-9f73-4c44-b4ba-5e14f3de902d-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/09/2023 08:20:15:621 AM UTC: Thread[CTSWorkerPool-0,5,main]: TransactionId[bd799297-9f73-4c44-b4ba-5e14f3de902d-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/09/2023 08:20:15:625 AM UTC: Thread[CTSWorkerPool-5,5,main]: TransactionId[bd799297-9f73-4c44-b4ba-5e14f3de902d-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/09/2023 08:20:15:632 AM UTC: Thread[CTSWorkerPool-3,5,main]: TransactionId[bd799297-9f73-4c44-b4ba-5e14f3de902d-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amCoreTokenService:01/09/2023 08:20:15:632 AM UTC: Thread[CTSWorkerPool-1,5,main]: TransactionId[bd799297-9f73-4c44-b4ba-5e14f3de902d-0]
+ERROR: CTS Async: Task Processor Error: interrupt detected
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.forgerock.openam.sm.datalayer.impl.SeriesTaskExecutorThread.run(SeriesTaskExecutorThread.java:91)
+	at org.forgerock.openam.audit.context.AuditRequestContextPropagatingRunnable.run(AuditRequestContextPropagatingRunnable.java:42)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+amSession:01/09/2023 09:13:44:799 AM UTC: Thread[CTSWorkerPool-5,5,main]: TransactionId[32d81b92-455c-43bd-bd8b-73d1520fd976-0]
+ERROR: Continuous query listener has lost its connection
