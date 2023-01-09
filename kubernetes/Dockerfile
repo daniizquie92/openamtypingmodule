@@ -1,0 +1,1 @@
+FROM daniizquie921/openamtypingmodule:daniizquiesite
