@@ -1,6 +1,8 @@
 # openamtypingmodule
 All the source code and steps to build an openam instance with a custom authentication module 
 
+The module should be used as a second or third step in an authentication chain, not as a single module.
+
 In the kubernetes directory you can find all the information for displaying the openam instance in docker and kubernetes
 
 The Typing directory contains the source code and compiled .jar code of the typing authentication module.
