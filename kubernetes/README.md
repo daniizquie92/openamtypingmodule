@@ -3,14 +3,15 @@
 - Start mimikube
 - minikube addons enable ingress
 - Download kubectl
+  
+Start the docker container with the image daniizquie921/openamtypingmodule:daniizquiesite
+- copy the directory /usr/openam to your own computer (docker cp openam:/usr/openam .)
+
 
 For using your local image with minikube use:
 - docker login
 - eval $(minikube -p minikube docker-env)
 - docker build .
-  
-Start the docker container with the image daniizquie921/openamtypingmodule:daniizquiesite
-- copy the directory /usr/openam to your own computer (docker cp openam:/usr/openam .)
 
 - apply the files in this github repo with: kubectl apply -f .
 copy the directory you copied before to the pod created
