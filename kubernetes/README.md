@@ -1,6 +1,7 @@
 - Download mimikube
 - Add the user to docker group
 - Start mimikube
+- minikube addons enable ingress
 - Download kubectl
 
 For using your local image with minikube use:
