@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: openam
-        image: daniizquie921/openamtypingmodule:1.3
+        image: daniizquie921/openamtypingmodule:daniizquiesite
         imagePullPolicy: Never
         ports:
         - containerPort: 8080
