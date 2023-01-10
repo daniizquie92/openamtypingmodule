@@ -22,6 +22,7 @@ If you want to enter the pod via localhost use
 
 Edit the /etc/hosts file and include the minikube ip followed by openam.daniizquie921.com
 
+If you don't use that image you should do this:
 In OPENAM admin UI
 - sites: add new site, add the address https://openam.daniizquie921.com:443/openam to primary URL, and http://openam.daniizquie921.com:80/openam to secundary
 - in configuracion -> global services -> platform -> add in coockie domains openam.daniizquie921.com
