@@ -42,17 +42,6 @@ import org.json.simple.JSONObject;
 
 import java.util.List;
 
-/**
- * SampleAuth authentication module example.
- *
- * If you create your own module based on this example, you must modify all
- * occurrences of "SampleAuth" in addition to changing the name of the class.
- *
- * Please refer to OpenAM documentation for further information.
- *
- * Feel free to look at the code for authentication modules delivered with
- * OpenAM, as they implement this same API.
- */
 public class TypingAuth extends AMLoginModule{
 
     // Name for the debug-log
@@ -61,12 +50,6 @@ public class TypingAuth extends AMLoginModule{
 
     // Name of the resource bundle
     private final static String amAuthSampleAuth = "amAuthTypingAuth";
-
-    // User names for authentication logic
-    private static String USERNAME = "demo";
-
-    private final static String ERROR_1_USERNAME = "test1";
-    private final static String ERROR_2_USERNAME = "test2";
 
     // Orders defined in the callbacks file
     private final static int STATE_BEGIN = 1;
@@ -217,7 +200,6 @@ public class TypingAuth extends AMLoginModule{
                 String tp = hc.getValue();
 
                 //tp es un callback oculto en el formulario que guarde el patron recolectado por el js
-                //if (tp.equals("invalid") || tp.equals("hid") || tp.equals("")){
                 if (!valid && !(tp.equals("invalid") || tp.equals("hid") || tp.equals(""))){
                     //substituteHeader(STATE_ERROR, "INSERTE EL TEXTO CORRECTAMENTE");
                     replaceCallback(STATE_AUTH,1, new TextOutputCallback(1, "INSERTE EL TEXTO CORRECTAMENTE"));
