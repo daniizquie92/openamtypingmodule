@@ -4,6 +4,8 @@
 - minikube addons enable ingress
 - Download kubectl
   
+Make sure the root user has access to the same minikube cluster as the user
+
 Start the docker container with the image daniizquie921/openamtypingmodule:daniizquiesite
 - copy the directory /usr/openam to your own computer (docker cp openam:/usr/openam .)
 
@@ -18,15 +20,18 @@ copy the directory you copied before to the pod created
 
 - kubectl cp ./openam openam-0:/usr/
 
-If you want to enter the pod via localhost use
-- kubectl port-forward svc/openam 80 443
 
 Edit the /etc/hosts file and include the minikube ip followed by openam.daniizquie921.com
-
-If you don't use that image you should do this:
+Edit the /etc/hosts file and include openam.example.com to the localhost reference
+Enter the pod via localhost use
+- kubectl port-forward svc/openam 80 443
+- access: https://openam.example.com:443/openam (credentials are: user:amadmin password:tortilla)
+  
 In OPENAM admin UI
-- sites: add new site, add the address https://openam.daniizquie921.com:443/openam to primary URL, and http://openam.daniizquie921.com:80/openam to secundary
-- in configuracion -> global services -> platform -> add in coockie domains openam.daniizquie921.com
+  - sites: add new site, add the address https://openam.daniizquie921.com:443/openam to primary URL, and http://openam.daniizquie921.com:80/openam to secundary
+  - in configuracion -> global services -> platform -> add in coockie domains openam.daniizquie921.com
+
+Now you should be able to access via ingress, you can stop the port-forwarding
 
 NOTE:
 - if you want to use an address different than openam.daniizquie921.com you should edit the places where it appears in this file. 
