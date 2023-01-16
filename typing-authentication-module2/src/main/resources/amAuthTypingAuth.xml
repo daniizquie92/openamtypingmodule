@@ -39,14 +39,14 @@
                 <AttributeSchema name="iplanet-am-auth-typingauth-apikey"
                                  type="single" syntax="string" validator="no" i18nKey="a501" >
                     <DefaultValues>
-                        <Value>f4c7f3609dfcdc58133415c27790d532</Value>
+                        <Value>Your typing dna api key</Value>
                     </DefaultValues>
                 </AttributeSchema>
 
                 <AttributeSchema name="iplanet-am-auth-typingauth-api_secret"
                                  type="single" syntax="string" validator="no" i18nKey="a502" >
                     <DefaultValues>
-                        <Value>6e18769831424508e42a0392c2835f01</Value>
+                        <Value>your typingdna api secret</Value>
                     </DefaultValues>
                 </AttributeSchema>
 
@@ -67,14 +67,14 @@
                     <AttributeSchema name="iplanet-am-auth-typingauth-apikey"
                                      type="single" syntax="string" validator="no" i18nKey="a501" >
                         <DefaultValues>
-                            <Value>f4c7f3609dfcdc58133415c27790d532</Value>
+                            <Value>your typingdna api key</Value>
                         </DefaultValues>
                     </AttributeSchema>
 
                     <AttributeSchema name="iplanet-am-auth-typingauth-api_secret"
                                      type="single" syntax="string" validator="no" i18nKey="a502" >
                         <DefaultValues>
-                            <Value>6e18769831424508e42a0392c2835f01</Value>
+                            <Value>your typingdna api secret</Value>
                         </DefaultValues>
                     </AttributeSchema>
 
