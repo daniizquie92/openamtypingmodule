@@ -1,4 +1,4 @@
-- Download mimikube
+- Download minikube
 - Add the user to docker group
 - Start mimikube
 - minikube addons enable ingress
