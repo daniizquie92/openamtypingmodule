@@ -16,7 +16,7 @@ For using your local image with minikube use:
 - docker build .
 
 - apply the files in this github repo with: kubectl apply -f .
-copy the directory you copied before to the pod created
+- copy the directory you copied before to the pod created
 
 - kubectl cp ./openam openam-0:/usr/
 
