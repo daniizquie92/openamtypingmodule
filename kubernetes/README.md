@@ -29,7 +29,7 @@ Enter the pod via localhost use
   
 In OPENAM admin UI
   - sites: add new site, add the address https://openam.daniizquie921.com:443/openam to primary URL, and http://openam.daniizquie921.com:80/openam to secundary
-  - in configuracion -> global services -> platform -> add in coockie domains openam.daniizquie921.com
+  - in configuracion -> global services -> platform -> add in cookie domains openam.daniizquie921.com
 
 Now you should be able to access via ingress, you can stop the port-forwarding
 
