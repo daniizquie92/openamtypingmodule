@@ -5,6 +5,10 @@ metadata:
   #annotations:
    # nginx.ingress.kubernetes.io/rewrite-target: /openam
 spec:
+  tls:
+    - hosts:
+      - openam.daniizquie921.com
+      secretName: tls-certificate
   rules:
   - host: openam.daniizquie921.com
     http:
